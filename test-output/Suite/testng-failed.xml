@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.CheckViewAndCheckOut">
+        <methods>
+          <include name="viewAndCheckout"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- tests.CheckViewAndCheckOut -->
+      <class name="tests.CheckSignUp">
+        <methods>
+          <include name="InvalidSignUp"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- tests.CheckSignUp -->
+      <class name="tests.CheckProductAdded">
+        <methods>
+          <include name="checkproduct"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- tests.CheckProductAdded -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
